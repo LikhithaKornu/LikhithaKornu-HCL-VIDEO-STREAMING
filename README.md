@@ -23,8 +23,8 @@ StreamHub is a robust online video streaming platform built using C++, HTML, CSS
 ### Installation Guide
 
 ## 1. Clone the repository
-git clone https://github.com/LikhithaKornu/LikhithaKornu-HCL-VIDEO-STREAMING
-cd streamhub
+```bashgit clone https://github.com/LikhithaKornu/LikhithaKornu-HCL-VIDEO-STREAMING```bash
+```bashcd streamhub```bash
 ## 2. Set up Apache Server (htdocs)
 - **Install and configure Apache Server**.
 - **Move the project files to the htdocs folder (e.g., C:/xampp/htdocs/streamhub)**.
@@ -32,17 +32,17 @@ cd streamhub
 - **Generate an SSL certificate using OpenSSL or another method**.
 - **Modify the Apache httpd.conf file as follows**:
 Listen 443
-<VirtualHost *:443>
-    DocumentRoot "C:/xampp/htdocs/streamhub"
-    SSLEngine on
-    SSLCertificateFile "path_to_cert.pem"
-    SSLCertificateKeyFile "path_to_key.pem"
-</VirtualHost>
+```bash<VirtualHost *:443>```bash
+   ```bash DocumentRoot "C:/xampp/htdocs/streamhub"```bash
+    ```bashSSLEngine on```bash
+   ```bash SSLCertificateFile "path_to_cert.pem"```bash
+   ```bash SSLCertificateKeyFile "path_to_key.pem"```bash
+```bash</VirtualHost>```bash
 ## 3. Back-End Setup (C++)
 - **Ensure a C++ compiler (e.g., GCC) is installed**.
 - **Navigate to the backend/ folder and compile the C++ server code**:
-g++ server.cpp -o server
-./server
+```bashg++ server.cpp -o server```bash
+```bash./server```bash
 ## 4. Front-End Setup (HTML, CSS, JS)
 - **Navigate to the frontend/ folder to modify the HTML, CSS, and JavaScript files if needed**.
 - **Make sure the front-end files are linked correctly to the back-end for streaming**.
