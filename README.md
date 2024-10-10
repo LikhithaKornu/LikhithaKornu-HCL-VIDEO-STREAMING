@@ -19,6 +19,10 @@ StreamHub is a robust online video streaming platform built using C++, HTML, CSS
 - **Server**: htdocs directory (Apache Server)
 - **Security**: HTTPS encryption for secure streaming
 - **Deployment**: Local or cloud-based deployment on Apache server using htdocs.
+### Streaming Video over HTTP
+
+![Screenshot](screenshot.png)
+
 
 ### Installation Guide
 ```bash
@@ -31,7 +35,7 @@ StreamHub is a robust online video streaming platform built using C++, HTML, CSS
 - **Enable HTTPS on your Apache server**.
 - **Generate an SSL certificate using OpenSSL or another method**.
 - **Modify the Apache httpd.conf file as follows**:
-Listen 443
+ Listen 443
 <VirtualHost *:443>
    DocumentRoot "C:/xampp/htdocs/streamhub
    SSLEngine on
@@ -41,8 +45,8 @@ Listen 443
 ## 3. Back-End Setup (C++)
 - **Ensure a C++ compiler (e.g., GCC) is installed**.
 - **Navigate to the backend/ folder and compile the C++ server code**:
-g++ server.cpp -o server
-./server```
+    g++ server.cpp -o server
+    ./server```
 ## 4. Front-End Setup (HTML, CSS, JS)
 - **Navigate to the frontend/ folder to modify the HTML, CSS, and JavaScript files if needed**.
 - **Make sure the front-end files are linked correctly to the back-end for streaming**.
@@ -60,6 +64,3 @@ g++ server.cpp -o server
 - **Cross-Site Scripting (XSS) Prevention: Sanitizes user input to secure the front-end**.
 ## Contact
 - **For any queries, contact the project maintainer at likhithakornu03@gmail.com**.
-### Streaming Video over HTTP
-
-![Screenshot](screenshot.png)
