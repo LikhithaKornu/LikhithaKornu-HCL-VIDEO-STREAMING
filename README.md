@@ -21,8 +21,8 @@ StreamHub is a robust online video streaming platform built using C++, HTML, CSS
 - **Deployment**: Local or cloud-based deployment on Apache server using htdocs.
 
 ### Installation Guide
-
-```bash ## 1. Clone the repository   
+```bash
+ ## 1. Clone the repository   
   git clone https://github.com/LikhithaKornu/LikhithaKornu-HCL-VIDEO-STREAMING 
    cd streamhub
 ## 2. Set up Apache Server (htdocs)
