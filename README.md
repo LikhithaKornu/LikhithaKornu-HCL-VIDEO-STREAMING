@@ -26,11 +26,11 @@ StreamHub is a robust online video streaming platform built using C++, HTML, CSS
 git clone https://github.com/LikhithaKornu/LikhithaKornu-HCL-VIDEO-STREAMING
 cd streamhub
 ## 2. Set up Apache Server (htdocs)
-- ** Install and configure Apache Server.
-- ** Move the project files to the htdocs folder (e.g., C:/xampp/htdocs/streamhub).
-- ** Enable HTTPS on your Apache server:
-- ** Generate an SSL certificate using OpenSSL or another method.
-- ** Modify the Apache httpd.conf file as follows:
+- **Install and configure Apache Server**.
+- **Move the project files to the htdocs folder (e.g., C:/xampp/htdocs/streamhub)**.
+- **Enable HTTPS on your Apache server**.
+- **Generate an SSL certificate using OpenSSL or another method**.
+- **Modify the Apache httpd.conf file as follows**:
 Listen 443
 <VirtualHost *:443>
     DocumentRoot "C:/xampp/htdocs/streamhub"
@@ -39,27 +39,27 @@ Listen 443
     SSLCertificateKeyFile "path_to_key.pem"
 </VirtualHost>
 ## 3. Back-End Setup (C++)
-- ** Ensure a C++ compiler (e.g., GCC) is installed.
-- ** Navigate to the backend/ folder and compile the C++ server code:
+- **Ensure a C++ compiler (e.g., GCC) is installed**.
+- **Navigate to the backend/ folder and compile the C++ server code**:
 g++ server.cpp -o server
 ./server
 ## 4. Front-End Setup (HTML, CSS, JS)
-- ** Navigate to the frontend/ folder to modify the HTML, CSS, and JavaScript files if needed.
-- ** Make sure the front-end files are linked correctly to the back-end for streaming.
-- ** The homepage will be accessible at https://localhost/streamhub once the Apache server is running.
+- **Navigate to the frontend/ folder to modify the HTML, CSS, and JavaScript files if needed**.
+- **Make sure the front-end files are linked correctly to the back-end for streaming**.
+- **The homepage will be accessible at https://localhost/streamhub once the Apache server is running**.
 ## 5. Testing
-- ** Launch the web application by visiting https://localhost/streamhub in your browser.
-- ** You can now upload and stream videos securely over HTTPS.
+- **Launch the web application by visiting https://localhost/streamhub in your browser**.
+- **You can now upload and stream videos securely over HTTPS**.
 ## Usage
-- ** Home Page: Browse available videos or upload your own.
-- ** Upload Video: Upload a video file, which will be processed by the C++ back-end.
-  - ** Stream Video: Select a video to stream; the application will handle transcoding and optimize playback for your device.
+- **Home Page: Browse available videos or upload your own**.
+- **Upload Video: Upload a video file, which will be processed by the C++ back-end**.
+  - **Stream Video: Select a video to stream; the application will handle transcoding and optimize playback for your device**.
 ### Security
-- ** HTTPS Encryption: Supports secure streaming with SSL certificates.
-- ** Input Validation: Validates all inputs to prevent attacks.
-- ** Cross-Site Scripting (XSS) Prevention: Sanitizes user input to secure the front-end.
+- **HTTPS Encryption: Supports secure streaming with SSL certificates**.
+- **Input Validation: Validates all inputs to prevent attacks**.
+- **Cross-Site Scripting (XSS) Prevention: Sanitizes user input to secure the front-end**.
 ## Contact
-- **For any queries, contact the project maintainer at likhithakornu03@gmail.com.
+- **For any queries, contact the project maintainer at likhithakornu03@gmail.com**.
 ### Streaming Video over HTTP
 
 ![Screenshot](screenshot.png)
