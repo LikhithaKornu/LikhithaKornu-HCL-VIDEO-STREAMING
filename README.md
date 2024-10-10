@@ -1,4 +1,4 @@
-### StreamHub: A Secure Online Video Streaming Web Application
+# StreamHub: A Secure Online Video Streaming Web Application
 
 ## Project Description:
 StreamHub is a robust online video streaming platform built using C++, HTML, CSS, JavaScript, and htdocs. This web application enables users to stream video content securely over HTTPS, ensuring privacy and data protection. StreamHub offers a seamless and responsive interface for browsing, uploading, and streaming videos, with real-time transcoding and playback optimization for various devices. By combining server-side C++ for performance-critical tasks and a front-end developed using modern web technologies, StreamHub provides a highly scalable and secure streaming experience.
@@ -23,11 +23,13 @@ StreamHub is a robust online video streaming platform built using C++, HTML, CSS
 
 ![Screenshot](screenshot.png)
 
+## Contact
+- **For any queries, contact the project maintainer at likhithakornu03@gmail.com**.
 
 ### Installation Guide
 ```bash
- ## 1. Clone the repository   
-  git clone https://github.com/LikhithaKornu/LikhithaKornu-HCL-VIDEO-STREAMING 
+## 1. Clone the repository   
+   git clone https://github.com/LikhithaKornu/LikhithaKornu-HCL-VIDEO-STREAMING 
    cd streamhub
 ## 2. Set up Apache Server (htdocs)
 - **Install and configure Apache Server**.
@@ -62,5 +64,3 @@ StreamHub is a robust online video streaming platform built using C++, HTML, CSS
 - **HTTPS Encryption: Supports secure streaming with SSL certificates**.
 - **Input Validation: Validates all inputs to prevent attacks**.
 - **Cross-Site Scripting (XSS) Prevention: Sanitizes user input to secure the front-end**.
-## Contact
-- **For any queries, contact the project maintainer at likhithakornu03@gmail.com**.
